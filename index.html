@@ -1,59 +1,353 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Olá, mundo!</title>
-  </head>
-  <body>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <title>Olá, mundo!</title>
+</head>
 
-        <div> <img src="img/logotattoo.png" alt="" width="50" height="50"></div>
-        <a class="navbar-brand" href="#">RAQUEL RESENDE TATTOO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Produto</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Opções
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
-              </div>
-            </li>
-            <li class="nav-item"> 
-              <a class="nav-link disabled" href="#">Desativado</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div> <img src="img/logotattoo.png" alt="" width="50" height="50"></div>
+    <a class="navbar-brand" href="#">RAQUEL RESENDE TATTOO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produto</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Opções
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Ação</a>
+            <a class="dropdown-item" href="#">Outra ação</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desativado</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-light my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <!-- NAVEbar - BARRA DE NAVEGAÇÃO-->
+
+  <!--Carrosel-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 h-auto" src="img/primeiro-b.jpg" alt="Primeiro Slide" > 
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/segunda-b.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/terceira-b.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <!-- NAVEbar - BARRA DE NAVEGAÇÃO-->
+
+  <!-- blocos de imagens -->
+
+
+  <div class=" container card-columns mt-5">
+    <div class="card">
+      <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+        <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a
+          um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+      </div>
+    </div>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
+          adicional.</p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+    <div class="card bg-primary text-white text-center p-3">
+      <blockquote class="blockquote mb-0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+        <footer class="blockquote-footer">
+          <small>
+            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
+          adicional.</p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img" src=".../100px260/" alt="Imagem do card">
+    </div>
+    <div class="card p-3 text-right">
+      <blockquote class="blockquote mb-0">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
+          conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.
+        </p>
+        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+  </div>
+
+
+
+  <!-- blocos de imagens -->
+
+
+  <!--texto e vídeo-->
+
+
+  <div class="container mt-5 5mb- ">
+    <div class="row d-flex align-items-center">
+      <div class="col ">
+
+        <h2>Veja mais!</h2>
+        <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, laboriosam quisquam fugit
+          id delectus illum quibusdam hic velit similique possimus commodi iure sit dolor minima dignissimos adipisci
+          impedit recusandae asperiores!</p>
+      </div>
+
+      <div clss="col">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/3bHq1Ym4yQM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <!--texto e vídeo -->
+
+
+  <!-- formunlário-->
+
+
+<div class="container mt-5 mb-5">
+  <div class="row align-items-center d-flex">  
+    <div class="col"> 
+      <h2> Entre em contato conosco</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
         </div>
-      </nav>
+        
+       
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="tm-btn"> Enviar</button>
+      </form>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    </div>
+
+
+    <div class="col">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.0115245043467!2d-43.36196688607869!3d-22.949802684989944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd9a5602cb577%3A0x1cad6b9c3d663eba!2sTv.%20El%C3%A1%20-%20Cidade%20de%20Deus%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022772-460!5e0!3m2!1spt-BR!2sbr!4v1667916321432!5m2!1spt-BR!2sbr"
+    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade" ></iframe>
+     </div>
+
+
+  </div>
+</div>
+
+  <!-- formunlário-->
+
+<!--footer-->
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white ">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Instagram -->
+      <a
+        href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+        target="_blank">
+        <img src="img/instagram.png" alt="inco" width="45px">
+
+      <!-- Twitter -->
+      <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+        target="_blank">
+        <img src="img/pinterest.png" alt="icon"
+        width="50px">
+
+        <a  href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+        target="_blank">
+        <img src="img/youtube.png" alt="icon"
+        width="50px">
+
+  
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <img src="img/logotattoo.png" width="80" height="auto" alt="logo do footer">
+    </section>
+    <!-- Section: Text -->
+
+
+   
+
+        
+
+      
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+<!--footer-->
+
+
+
+
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
